@@ -80,8 +80,9 @@ body {
 }
 
 .values-list {
-  display: grid;
-  grid-template-columns: repeat(6, ifr) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
@@ -89,7 +90,9 @@ body {
   border: transparent;
   font-size: 1.5rem;
   cursor: pointer;
-  color: hs1(210, 22%, 49%);
+  color: rgb(170, 219, 247);
+  margin-right: 10px;
+
   transition: all 0.3s linear;
 }
 
