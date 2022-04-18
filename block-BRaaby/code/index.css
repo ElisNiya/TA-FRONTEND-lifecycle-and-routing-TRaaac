@@ -72,11 +72,13 @@ body {
 
 .user-title{
   font-size: 18px;
+  color: aliceblue;
   margin-bottom: 0;
 }
 
 .user-value{
   font-size: 28px;
+  color: aliceblue;
 }
 
 .values-list {
